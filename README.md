@@ -58,7 +58,7 @@ Early detection of conditions like arrhythmia, hypoxia, and fever can save lives
 
 Below is an example of the Python preprocessing pipeline used to clean raw PPG sensor readings by stripping physiological outliers and applying a moving average smoothing filter:
 
-python
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
