@@ -30,7 +30,7 @@ Early detection of conditions like arrhythmia, hypoxia, and fever can save lives
 [ AI / ML Inference ]     ──► (Edge Impulse Model: Decision Trees / Neural Networks)
 │
 ▼
-[ Renesas RA6E2 MCU ]     ──► (Secure Boot & Encrypted Wi-Fi Transmission via HS4001)
+[ Renesas RA6E2 MCU ]     ──► (Secure Boot & Encrypted Wi-Fi Transmission via UART)
 
 
 1. **Data Acquisition:** Captures PPG pulse signals and IR body temperature across resting, active, and simulated condition datasets.
@@ -49,7 +49,7 @@ Early detection of conditions like arrhythmia, hypoxia, and fever can save lives
 * **Sensors:**
   * **MAX30100:** Optical Photoplethysmography (PPG) for Heart Rate and SpO₂.
   * **MLX90614:** Non-contact Infrared Temperature Sensor.
-* **Connectivity Module:** HS4001 Wi-Fi Module.
+* **Connectivity Module:** UART for Wifi.
 * **Security Layer:** Renesas Hardware Security Engine, Secure Boot, and End-to-End Encrypted Payload Transmission.
 
 ---
